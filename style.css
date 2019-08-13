@@ -1,13 +1,39 @@
-.container-fluid {
-    background-color: lightgray;
-    border-radius: 5%;
+header {
+    background-color: #81D8D0;
+    color: white;
+    border-radius: 3%;
     width: 100%;
     height: 100%;
     margin-top: 2%;
 }
 
-#title, #image {
-    display: flex;
-    justify-content: center;
+#title {
+    text-align: center;
+    color: white;
 }
 
+.caption {
+    font-size: 18px;
+    text-align: center;
+}
+
+#img-div {
+    background-color: #ebf9f8;
+}
+
+#image {
+    margin-left: 24%;
+    margin-top: 1%;
+    display:  block;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+#tribute-info {
+    height: 300px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
